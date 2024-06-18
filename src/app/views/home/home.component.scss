@@ -1,0 +1,10 @@
+@import '../../../styles.scss';
+
+
+.main {
+  width: 100vw;
+  height: calc(100vh + 660px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

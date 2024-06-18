@@ -1,0 +1,43 @@
+
+<main class="products-list">
+  <section class="background">
+  <ng-container *ngFor="let product of products">
+    <div class="product-item">
+      <img src="{{ product.urlImg }}" />
+      <div class="infos-product">
+        <h4>{{ product.name }}</h4>
+        <div class="infos-price-product">
+          <p>{{ product.brand }}</p>
+          <span>
+            {{ product.price | currency : "BRL" }}
+          </span>
+          <span>
+            Em até
+            {{ product.installment[product.installment.length - 1] }}
+          </span>
+        </div>
+      </div>
+      <div class="area-buttons">
+        <button
+          mat-flat-button
+          color="primary"
+          (click)="openDialogEditProduct(product)"
+        >
+          <mat-icon>edit</mat-icon>
+          Editar
+        </button>
+        <button
+        *ngIf="renderizaBotaoDelete"
+          mat-flat-button
+          color="danger"
+          (click)="openDialogDeleteProduct(product)"
+        >
+          <mat-icon>delete_sweep</mat-icon>
+          Excluir
+        </button>
+      </div>
+    </div>
+  </ng-container>
+</section>
+</main>
+

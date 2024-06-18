@@ -1,0 +1,87 @@
+<div
+  [ngClass]="[
+    'containerProduct',
+    editProduct ? 'containerEdit' : 'containerAdd'
+  ]"
+>
+  <section class="form-top">
+    <h2>{{ editProduct ? "Editar Produto" : "Adicionar novo produto" }}</h2>
+    <button
+      *ngIf="editProduct"
+      (click)="onCancel()"
+      mat-flat-button
+      color="primary"
+      class="btn-close-dialog"
+    >
+      <mat-icon>close</mat-icon>
+    </button>
+  </section>
+
+  <section
+    [ngClass]="[
+      'container-form',
+      editProduct ? 'container-form-edit' : 'container-form-add'
+    ]"
+  >
+    <form [formGroup]="productForm" class="form">
+      <div
+        [ngClass]="['div-form', editProduct ? 'div-form-edit' : 'div-form-add']"
+      >
+        <section class="section-form">
+          <section class="icon-input">
+            <mat-icon class="icon">store</mat-icon>
+            <mat-form-field>
+              <mat-label class="input label">Produto</mat-label>
+              <input formControlName="name" class="input" matInput />
+            </mat-form-field>
+          </section>
+
+          <section class="icon-input">
+            <mat-icon class="icon">comment</mat-icon>
+            <mat-form-field>
+              <mat-label class="label input">Marca</mat-label>
+              <input formControlName="brand" class="input" matInput />
+            </mat-form-field>
+          </section>
+
+        </section>
+
+        <section class="section-form">
+          <section class="icon-input">
+            <mat-icon class="icon"> attach_money</mat-icon>
+            <mat-form-field>
+              <mat-label class="label input">Preço</mat-label>
+              <input formControlName="price" class="input" matInput />
+            </mat-form-field>
+          </section>
+
+          <section class="icon-input">
+            <mat-icon class="icon">credit_card</mat-icon>
+            <mat-form-field>
+              <mat-label class="label input">Parcelamento</mat-label>
+              <input formControlName="installment" [value]="2" type="number" maxlength="1" min="2" max="5" class="input" matInput />
+            </mat-form-field>
+          </section>
+
+          <section class="icon-input">
+            <mat-icon class="icon-img fa-image">image</mat-icon>
+            <mat-form-field>
+              <mat-label class="label input">Link da imagem</mat-label>
+              <textarea
+                formControlName="urlImg"
+                class="input"
+                matInput
+                placeholder="URL..."
+              ></textarea>
+            </mat-form-field>
+          </section>
+        </section>
+      </div>
+      <button (click)="onSubmit()"
+      [disabled]="productForm.invalid"
+       class="btn-action">       
+        {{ editProduct ? "Editar" : "Adicionar" }}
+      </button>
+    </form>
+  </section>
+</div>

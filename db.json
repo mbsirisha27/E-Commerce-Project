@@ -1,0 +1,205 @@
+{
+  "products": [
+    {
+      "name": "Teclado Sem Fio",
+      "brand": "Genérico",
+      "id": "3caa87db-dbae-4cd6-adc7-81369f829df1",
+      "price": 50,
+      "installment": [
+        "2x",
+        "3x",
+        "4x",
+        "5x"
+      ],
+      "urlImg": "https://images.tcdn.com.br/img/img_prod/789576/teclado_mecanico_redragon_gamer_manyu_k579rgb_preto_azul_1417784_1_d4ade187d8a12b626cca1c65b0e0509f.png"
+    },
+    {
+      "name": "Mouse Gamer",
+      "brand": "GamerZone",
+      "id": "0d05c458-91c3-478d-910e-7bdaccf5972b",
+      "price": 50,
+      "installment": "/4",
+      "urlImg": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91c2V8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "name": "Monitor LED 24\"",
+      "brand": "DisplayMax",
+      "id": "d97cae43-65cb-4750-999b-673e9f3f94d3",
+      "price": 200,
+      "installment": "/3",
+      "urlImg": "https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Caixas de Som 2.1",
+      "brand": "AudioPro",
+      "price": 80,
+      "installment": 2,
+      "urlImg": "https://images.unsplash.com/photo-1612241143917-d05c85c43751?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FpeGFzJTIwZGUlMjBzb218ZW58MHwwfDB8fHww",
+      "id": "a3a6898d-c69c-4b8c-a37b-350f6c385223"
+    },
+    {
+      "name": "Webcam",
+      "brand": "CamTech",
+      "price": 60,
+      "installment": 2,
+      "urlImg": "https://images.unsplash.com/photo-1629429407756-446d66f5b24e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2ViY2FtJTIwaGR8ZW58MHwwfDB8fHww",
+      "id": "11e75eb3-2913-4b3a-b1a7-8618cc04801c"
+    },
+    {
+      "name": "HD Externo 1TB",
+      "brand": "StorageMaster",
+      "id": "ee2add15-f21e-434e-ad8a-d08254848a33",
+      "price": 120,
+      "installment": [
+        "4x",
+        "5x"
+      ],
+      "urlImg": "https://images.unsplash.com/photo-1601737487795-dab272f52420?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGQlMjBleHRlcm5vfGVufDB8MHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "Impressora Multifuncional",
+      "brand": "PrintMaster",
+      "id": "1350c71c-654f-4d7f-b768-78e62967d5a8",
+      "price": 150,
+      "installment": [
+        "3x",
+        "4x",
+        "5x"
+      ],
+      "urlImg": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Hub USB 3.0",
+      "brand": "ConnectPro",
+      "id": "ce8ea99c-d576-45ce-92c7-7b1223c44944",
+      "price": 20,
+      "installment": [
+        "2x"
+      ],
+      "urlImg": "https://img.freepik.com/fotos-gratis/dispositivo-digital-hubs-usb_53876-96823.jpg?w=1380&t=st=1700518915~exp=1700519515~hmac=acecc6ae84e68570cd9b970ee9c43c7c824a5f4ef27b168e0726b51175e19a7f"
+    },
+    {
+      "name": "Teclado Mecânico RGB",
+      "brand": "GamerZone",
+      "id": "7c6d6a21-34e8-4f66-8c27-bf4bbd6550de",
+      "price": 80,
+      "installment": [
+        "3x",
+        "4x"
+      ],
+      "urlImg": "https://images.unsplash.com/photo-1616933067921-11096044e304?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHRlY2xhZG8lMjBtZWNhbmljb3xlbnwwfDB8MHx8fDA%3D"
+    },
+    {
+      "name": "Mouse Bluetooth",
+      "brand": "TechMaster",
+      "id": "84c012ea-bccf-4c20-95e1-ad8a66ba97c7",
+      "price": 35,
+      "installment": [
+        "2x",
+        "3x"
+      ],
+      "urlImg": "https://images.unsplash.com/photo-1662371893881-1b2fae8e4304?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW91c2UlMjBibHVldG9vdGh8ZW58MHwwfDB8fHww"
+    },
+    {
+      "name": "Monitor Curvo 27\"",
+      "brand": "DisplayMax",
+      "id": "28dc3598-3058-4683-bc25-7557fcd5bd37",
+      "price": 300,
+      "installment": [
+        "4x",
+        "5x"
+      ],
+      "urlImg": "https://img.freepik.com/psd-gratuitas/maquete-de-tv-curvada_1310-610.jpg?size=626&ext=jpg&ga=GA1.1.640842567.1697948259&semt=ais"
+    },
+    {
+      "name": "Caixas de Som Bluetooth",
+      "brand": "AudioPro",
+      "id": "8cdb9d4d-1e79-45cc-a7b7-0750d77b64ae",
+      "price": 100,
+      "installment": [
+        "3x",
+        "4x"
+      ],
+      "urlImg": "https://img.freepik.com/fotos-gratis/homem-usando-um-alto-falante-inteligente_23-2149036843.jpg?w=1380&t=st=1700519058~exp=1700519658~hmac=73abafb13ecb4f4c16e8a0a25e4e62a87637ca07d10e7a93ea9775f26ffe09e4"
+    },
+    {
+      "name": "Webcam Full HD",
+      "brand": "CamTech",
+      "id": "38beaf2a-c209-42e6-93ca-aee73f470ac3",
+      "price": 80,
+      "installment": [
+        "3x",
+        "4x",
+        "5x"
+      ],
+      "urlImg": "https://images.unsplash.com/photo-1670278458254-0df3f72ab093?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2ViY2FtJTIwZnVsbCUyMGhkfGVufDB8MHwwfHx8MA%3D%3D"
+    },
+    {
+      "name": "HD Externo 2TB",
+      "brand": "StorageMaster",
+      "id": "9cc27ec4-c12f-4219-808b-fe6d103f963f",
+      "price": 180,
+      "installment": [
+        "4x",
+        "5x"
+      ],
+      "urlImg": "https://img.freepik.com/fotos-gratis/vista-superior-ssd-e-laptop-na-mesa_23-2149328234.jpg?size=626&ext=jpg&ga=GA1.1.640842567.1697948259&semt=ais"
+    },
+    {
+      "name": "Mouse Gamer",
+      "brand": "GamerZone",
+      "id": "b3c28043-305b-47e7-8130-800a65456599",
+      "price": 50,
+      "installment": [
+        "2x",
+        "3x"
+      ],
+      "urlImg": "https://img.freepik.com/fotos-gratis/vista-da-configuracao-da-mesa-de-jogos-iluminada-a-neon-com-teclado_23-2149529362.jpg?size=626&ext=jpg&ga=GA1.1.640842567.1697948259&semt=ais"
+    },
+    {
+      "name": "Impressora Laser",
+      "brand": "PrintMaster",
+      "id": "7b8babd0-124e-4acb-b62d-515ae6952cb6",
+      "price": 200,
+      "installment": [
+        "3x",
+        "4x",
+        "5x"
+      ],
+      "urlImg": "https://img.freepik.com/fotos-gratis/composicao-da-impressora-de-natureza-morta-de-vista-superior_23-2149120739.jpg?size=626&ext=jpg&ga=GA1.1.640842567.1697948259&semt=ais"
+    },
+    {
+      "name": "Hub USB-C",
+      "brand": "ConnectPro",
+      "id": "5c23b3f2-f9dd-478a-8a4b-56e30e6ff541",
+      "price": 30,
+      "installment": [
+        "2x"
+      ],
+      "urlImg": "https://img.freepik.com/fotos-gratis/close-up-de-um-pequeno-banco-de-pavimentacao-branca_169016-15153.jpg?size=626&ext=jpg&ga=GA1.1.640842567.1697948259&semt=ais"
+    },
+    {
+      "name": "Teclado Ergonômico",
+      "brand": "Genérico",
+      "id": "13a88a7a-a9b1-4e55-a988-c19060d7b9c8",
+      "price": 60,
+      "installment": [
+        "3x",
+        "4x"
+      ],
+      "urlImg": "https://example.com/teclado-ergonomico.jpg"
+    }
+  ],
+  "usuarios": [
+    {
+      "email": "c@gmail.com",
+      "senha": "123",
+      "tipo": "ADMIN"
+    },
+    {
+      "email": "peao@gmail.com",
+      "senha": "fakeadmin",
+      "tipo": "FUNCIONARIO"
+    }
+  ]
+}
