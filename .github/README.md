@@ -1,10 +1,10 @@
 # <h1 align='center'>E-COMMERCE </h1>
 
-## Description 📚
+## Description
 
 This is the final project of the Angular Framework II module of the Santander Coders program. The project consists of a web application that displays the interface of a e-commerce website containing home page, add products page, edit product dialog, delete product dialog and all products page. Additionally, there is a difference in the header icons and acess allowed pages for different type of user. We used HTML, SCSS, Bootstrap, Typescript, and Angular to create the interface and interactivity of the application. The concept of componentization, Input and Output and validated form were used. Project versioning was done using Git and Github, allowing each group member to contribute and track changes.
 
-## Technologies Used 🚀
+## Technologies Used
 
 - HTML
 - SCSS
@@ -78,10 +78,3 @@ ng serve
    <img  width='600' src='./image-9.png'>
 
 </div>
-
-## Authors 👩🏻‍💻👨🏻‍💻
-
-- [Jamyle Layla](https://github.com/JamyleTeles)
-- [Juan Salles](https://github.com/JuanSalles)
-- [Matheus Holanda](https://github.com/MMatheus-Holanda)
-- [Thayza Oliveira](https://github.com/tthayza)
